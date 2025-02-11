@@ -1,0 +1,15 @@
+{
+  "name": "feelings-wheel",
+  "version": "1.0.0",
+  "description": "feeling wheel with auto adjusting labels for readability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rikili",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.84.0",
+    "serve": "^14.2.4"
+  }
+}

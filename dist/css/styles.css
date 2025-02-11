@@ -1,0 +1,60 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#clip {
+  height: 100%;
+  overflow: clip;
+}
+
+#base {
+  height: 100%;
+}
+
+p, h1 {
+  text-align: center;
+}
+
+.circleContainer {
+  border-radius: 50%;
+  overflow: clip;
+  position: absolute;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.divider {
+  position: absolute;
+  background-color: white;
+  height: 5px;
+  width: 1000px;
+}
+
+.textContainer {
+  display: flex;
+  position: absolute;
+  font-size: 0.75em;
+  text-align: left;
+  vertical-align: baseline;
+}
+
+.textSpan {
+  vertical-align: middle;
+  position: absolute;
+  left: 10px;
+  top: -7px;
+  color: white;
+  user-select: none;
+}
+
+.circleSeparator {
+  background-color: white;
+  position: absolute;
+}
+
+/*# sourceMappingURL=styles.css.map */
